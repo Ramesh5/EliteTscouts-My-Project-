@@ -1,0 +1,27 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    
+<item
+        android:id="@+id/action_search"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/search_title"/>
+<item
+        android:id="@+id/blue_settings"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/blue_settings"/>
+<item 
+        android:id="@+id/view_settings"
+        android:orderInCategory="100"
+        android:showAsAction="never" 
+        android:title="@string/view_settings"/>
+<item android:id="@+id/Application"  
+    android:title="@string/applications"
+    android:orderInCategory="100"
+    android:showAsAction="never"/>
+<item android:id="@+id/createfolder" 
+    android:title="@string/create"
+    android:orderInCategory="100"
+    android:showAsAction="never"/> 
+</menu>
